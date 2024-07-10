@@ -47,6 +47,8 @@ syntax to import sharedlibrary: @Library('sharedlib-demo') -
 - the groovy file name inside the shared library is -> greet -> it takes one argument
 
 ```
+@Library('sharedlib-demo') -
+
 pipeline {
   agent any
   stages {
@@ -79,6 +81,8 @@ def mul(x,y){
 ```
 
 ```
+@Library('sharedlib-demo') -
+
 pipeline {
   agent any
   stages {
